@@ -1,7 +1,28 @@
 aid: khazna
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/khazna.png
 name: Khazna
-description: Khazna is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Khazna is Egypt's leading financial super app, a Cairo-based fintech building
+  inclusive financial services for the country's underbanked payroll workers and
+  their families. Through its consumer mobile app it offers earned-wage access and
+  salary advances, bill and utility payments, savings, and everyday consumer
+  lending, with the goal of extending affordable, digital financial services to
+  people traditionally excluded from the formal banking system. Khazna is backed by
+  Speedinvest and operates as a business-to-consumer application; it does not publish
+  a public developer portal or open API surface. This profile was added to the API
+  Evangelist network as a portfolio-lead stub and enriched with verified public
+  identity and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/khazna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Financial Inclusion
+- Earned Wage Access
+- Payments
+- Bill Payments
+- Lending
+- Savings
+- Egypt
+- Mobile App
 apis: []
+common:
+- type: DomainSecurity
+  url: security/khazna-domain-security.yml
+- type: Website
+  url: https://khazna.app
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
