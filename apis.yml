@@ -47,7 +47,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Financial Inclusion
 - Earned Wage Access
 - Payments
@@ -68,6 +68,7 @@ tags_raw:
 - Savings
 - Egypt
 - Mobile App
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
